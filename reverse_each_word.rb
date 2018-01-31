@@ -17,6 +17,6 @@ def reverse_each_word(string)
         count -= 1
       end
 
-      reverse_array.push(word)
+      reverse_array.push(reverse_word)
     }.join(" ")
 end
