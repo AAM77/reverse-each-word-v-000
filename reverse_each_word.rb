@@ -6,7 +6,7 @@ def reverse_each_word(string)
     string_array = string.split(" ")
     reverse_array = [ ]
 
-    string_array.each do |word|
+    string_array.collet do |word|
       count = word.length - 1
       reverse_word = ""
 
