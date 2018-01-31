@@ -5,6 +5,8 @@ def reversed (word)
 
   while (count >= 0)
     reverse_word = "#{reverse_word}#{word[count]}"
+    count -= 1
+  end
 
 def reverse_each_word(string)
     string_array = string.split(" ")
