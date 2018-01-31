@@ -12,8 +12,4 @@ def reverse_each_word(string)
       end
 
       reverse_array.push(reverse_word) }.join(" ")
-
-    new_string = reverse_array.join(" ")
-
-    return (new_string)
 end
