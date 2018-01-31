@@ -2,7 +2,9 @@
 def reversed (word)
   count = word.length - 1
   reverse_word = ""
-  
+
+  while (count >= 0)
+    reverse_word = "#{reverse_word}#{word[count]}"
 
 def reverse_each_word(string)
     string_array = string.split(" ")
