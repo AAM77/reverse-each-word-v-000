@@ -1,8 +1,12 @@
 def reverse_each_word(string)
+  string.split(" ").
+end
+
+def reverse_each_word2(string)
     string_array = string.split(" ")
     reverse_array = [ ]
 
-    string_array.collect do |word|
+    string_array.each do |word|
       count = word.length - 1
       reverse_word = ""
 
