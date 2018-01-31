@@ -2,7 +2,7 @@ def reverse_each_word2(string)
   string.split(" ").collect {|word| word.reverse}.join(" ")
 end
 
-def reverse_each_word(string)
+def reverse_each_word2(string)
     string_array = string.split(" ")
     reverse_array = [ ]
 
