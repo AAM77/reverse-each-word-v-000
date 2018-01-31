@@ -14,13 +14,7 @@ def reverse_each_word(string)
     reverse_array = [ ]
 
     string_array.collect { |word|
-      count = word.length - 1
-      reverse_word = ""
-
-      while (count >= 0)
-        reverse_word = "#{reverse_word}#{word[count]}"
-        count -= 1
-      end
+      word.reversed }.join(" ")
 
       reverse_array.push(reverse_word) }.join(" ")
 end
